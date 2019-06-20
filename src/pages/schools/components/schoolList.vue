@@ -64,216 +64,324 @@
                     enName:'University London College ',
                     jzpm:'QS World 建筑排名 / 1',
                     zpm:'QS World 综合排名 / 10',
+                    country:'英国',
+                    pro:'建筑,城市设计,城市规划,景观',
+                    label:'',
                     imgUrl:require('../../../assets/images/schools/ucl.jpg')
                 },{
                         name:'麻省理工学院 | 美国',
                         enName:'Massachusetts Institute of Technology',
                         jzpm:'QS World 建筑排名 / 2',
                         zpm:'QS World 综合排名 / 1',
+                        country:'美国',
+                        pro:'建筑,城市设计,城市规划,纯艺,工业设计',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/mslg.jpg')
                     },{
                         name:'代尔夫特理工 | 荷兰',
                         enName:'Delft University of Technology',
                         jzpm:'QS World 建筑排名 / 3',
                         zpm:'QS World 综合排名 / 52',
+                        country:'欧洲',
+                        pro:'建筑,城市设计,城市规划,纯艺',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/deftlg.png')
                     },{
                         name:'苏黎世联邦理工学院 | 瑞士',
                         enName:'ETH Zurich',
                         jzpm:'QS World 建筑排名 / 4',
                         zpm:'QS World 综合排名 / 7',
+                        country:'欧洲',
+                        pro:'建筑,城市设计,城市规划,纯艺',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/sls.jpg')
                     },{
                         name:'哈佛大学 | 美国',
                         enName:'Havard University GSD',
                         jzpm:'QS World 建筑排名 / 5',
                         zpm:'QS World 综合排名 / 3',
+                        country:'美国',
+                        pro:'建筑,城市设计,城市规划,景观',
+                        label:'IVY常春藤联盟',
                         imgUrl:require('../../../assets/images/schools/hfdx.jpg')
                     },{
                         name:'加州大学伯克利分校 | 美国',
                         enName:'University of California, Berkeley',
                         jzpm:'QS World 建筑排名 / 6',
                         zpm:'QS World 综合排名 / 27',
+                        country:'美国',
+                        pro:'建筑,城市设计,城市规划,景观',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/jzdx.png')
                     },{
                         name:'剑桥大学 | 英国',
                         enName:'University of Cambridge',
                         jzpm:'QS World 建筑排名 / 7',
                         zpm:'QS World 综合排名 / 6',
+                        country:'英国',
+                        pro:'建筑,城市设计,城市规划,纯艺',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/jqdx.png')
                     },{
                         name:'新加坡国立大学 | 新加坡',
                         enName:'National University of Singapore',
                         jzpm:'QS World 建筑排名 / 8',
                         zpm:'QS World 综合排名 / 11',
+                        country:'香港/新加坡',
+                        pro:'建筑,城市设计,城市规划,景观',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/xjbgl.png')
                     },{
                         name:'曼彻斯特建筑学院 | 英国',
                         enName:'Mancherster School of Architecture',
                         jzpm:'QS World 建筑排名 / 9',
                         zpm:'QS World 综合排名 / ',
+                        country:'英国',
+                        pro:'建筑,城市设计,城市规划,景观',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/mcst.jpg')
                     },{
                         name:'米兰理工大学 | 意大利',
                         enName:'Politecnico di Milano',
                         jzpm:'QS World 建筑排名 / 11',
                         zpm:'QS World 综合排名 / 156',
+                        country:'欧洲',
+                        pro:'建筑,城市设计,城市规划,景观,纯艺,工业设计',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/mllg.png')
                     },{
                         name:'哥伦比亚大学 | 美国',
                         enName:'Columbia University',
                         jzpm:'QS World 建筑排名 / 14',
                         zpm:'QS World 综合排名 / 16',
+                        country:'美国',
+                        pro:'建筑,城市设计,城市规划,纯艺',
+                        label:'IVY常春藤联盟',
                         imgUrl:require('../../../assets/images/schools/glby.jpg')
                     },{
                         name:'耶鲁大学 | 美国',
                         enName:'Yale University',
                         jzpm:'QS World 建筑排名 / 48',
                         zpm:'QS World 综合排名 / 15',
+                        country:'美国',
+                        pro:'建筑,城市设计,城市规划,纯艺',
+                        label:'IVY常春藤联盟',
                         imgUrl:require('../../../assets/images/schools/yldx.png')
                     },{
                         name:'普林斯顿大学 | 美国',
                         enName:'Princeton University',
                         jzpm:'QS World 建筑排名 / 36',
                         zpm:'QS World 综合排名 / 13',
+                        country:'美国',
+                        pro:'建筑,城市设计,城市规划,纯艺',
+                        label:'IVY常春藤联盟',
                         imgUrl:require('../../../assets/images/schools/plsd.jpg')
                     },{
                         name:'加州大学洛杉矶分校 | 美国',
                         enName:'University of California, LA',
                         jzpm:'QS World 建筑排名 / 16',
                         zpm:'QS World 综合排名 / 32',
+                        country:'美国',
+                        pro:'建筑,城市设计,城市规划,景观',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/ucla.jpg')
                     },{
                         name:'墨尔本大学 | 澳洲',
                         enName:'The University of Melbourne',
                         jzpm:'QS World 建筑排名 / 17',
                         zpm:'QS World 综合排名 / 39',
+                        country:'澳洲',
+                        pro:'建筑,城市设计,城市规划,景观',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/meb.jpg')
                     },{
                         name:'悉尼大学 | 澳洲',
                         enName:'The University of Sydney',
                         jzpm:'QS World 建筑排名 / 15',
                         zpm:'QS World 综合排名 / 42',
+                        country:'澳洲',
+                        pro:'建筑,城市设计,城市规划,纯艺',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/xndx.png')
                     },{
                         name:'康奈尔大学 | 美国',
                         enName:'Cornell University',
                         jzpm:'QS World 建筑排名 / 28',
                         zpm:'QS World 综合排名 / 14',
+                        country:'美国',
+                        pro:'建筑,城市设计,城市规划,景观',
+                        label:'IVY常春藤联盟',
                         imgUrl:require('../../../assets/images/schools/kne.png')
                     },{
                         name:'斯坦福大学 | 美国',
                         enName:'Stanford University',
                         jzpm:'QS World 建筑排名 / 30',
                         zpm:'QS World 综合排名 / 2',
+                        country:'美国',
+                        pro:'建筑,城市设计,城市规划,纯艺,工业设计',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/stf.png')
                     },{
                         name:'皇家墨尔本大学 | 澳洲',
                         enName:'RMIT',
                         jzpm:'QS World 建筑排名 / 22',
                         zpm:'QS World 综合排名 / 250',
+                        country:'澳洲',
+                        pro:'建筑,城市设计,城市规划,景观,纯艺,工业设计',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/hjmeb.png')
                     },{
                         name:'宾夕法尼亚大学 | 美国',
                         enName:'University of Pennsylvania',
                         jzpm:'QS World 建筑排名 / 42',
                         zpm:'QS World 综合排名 / 19',
+                        country:'美国',
+                        pro:'建筑,城市设计,城市规划,景观',
+                        label:'IVY常春藤联盟',
                         imgUrl:require('../../../assets/images/schools/bxfny.png')
                     },{
                         name:'乔治亚理工大学 | 美国',
                         enName:'Georgia Tech',
                         jzpm:'QS World 建筑排名 / 24',
                         zpm:'QS World 综合排名 / 69',
+                        country:'美国',
+                        pro:'建筑,城市设计,城市规划,纯艺',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/qzylg.png')
                     },{
                         name:'谢菲尔德大学 | 英国',
                         enName:'The University of Sheffield',
                         jzpm:'QS World 建筑排名 / 21',
                         zpm:'QS World 综合排名 / 75',
+                        country:'英国',
+                        pro:'建筑,城市设计,城市规划,景观',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/xfed.jpg')
                     },{
                         name:'东京大学 | 日本',
                         enName:'The University of Tokyo',
                         jzpm:'QS World 建筑排名 / 19',
                         zpm:'QS World 综合排名 / 23',
+                        country:'日本',
+                        pro:'建筑,城市设计,城市规划,纯艺',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/djdx.png')
                     },{
                         name:'慕尼黑理工大学 | 德国',
                         enName:'Technical University of Munich',
                         jzpm:'QS World 建筑排名 / 25',
                         zpm:'QS World 综合排名 / 61',
+                        country:'欧洲',
+                        pro:'建筑,城市设计,城市规划,纯艺',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/mnhlg.png')
                     },{
                         name:'卡迪夫大学 | 英国',
                         enName:'Cardiff University',
                         jzpm:'QS World 建筑排名 / 37',
                         zpm:'QS World 综合排名 / 45',
+                        country:'英国',
+                        pro:'建筑,城市设计,城市规划,纯艺',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/kdf.jpg')
                     },{
                         name:'密西根大学 | 美国',
                         enName:'University of Michigan',
                         jzpm:'QS World 建筑排名 / 31',
                         zpm:'QS World 综合排名 / 20',
+                        country:'美国',
+                        pro:'建筑,城市设计,城市规划,景观',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/mxg.png')
                     },{
                         name:'新南威尔士大学 | 英国',
                         enName:'The University of New South Wales',
                         jzpm:'QS World 建筑排名 / 25',
                         zpm:'QS World 综合排名 / 45',
+                        country:'英国',
+                        pro:'建筑,城市设计,城市规划,纯艺',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/snwes.jpeg')
                     },{
                         name:'德州大学奥斯汀分校 | 美国',
                         enName:'University of Texas at Austin',
                         jzpm:'QS World 建筑排名 / 35',
                         zpm:'QS World 综合排名 / 63',
+                        country:'美国',
+                        pro:'建筑,城市设计,城市规划,纯艺',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/dzdx.png')
                     },{
                         name:'伊利诺伊香槟分校 | 美国',
                         enName:'UIUC',
                         jzpm:'QS World 建筑排名 / 47',
                         zpm:'QS World 综合排名 / 71',
+                        country:'美国',
+                        pro:'建筑,城市设计,城市规划,景观',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/ylnxb.jpg')
                     },{
                         name:'香港大学 | 中国香港',
                         enName:'Hong Kong University',
                         jzpm:'QS World 建筑排名 / 13',
                         zpm:'QS World 综合排名 / 25',
+                        country:'其他',
+                        pro:'建筑,城市设计,城市规划,景观',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/xgdx.jpg')
                     },{
                         name:'京都大学 | 日本',
                         enName:'Kyoto University',
                         jzpm:'QS World 建筑排名 / -',
                         zpm:'QS World 综合排名 / -',
+                        country:'日本',
+                        pro:'建筑,城市设计,城市规划,纯艺',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/jddx.jpg')
                     },{
                         name:'南加州大学 | 美国',
                         enName:'University of Southern California',
                         jzpm:'QS World 建筑排名 / 51',
                         zpm:'QS World 综合排名 / 115',
+                        country:'美国',
+                        pro:'建筑,城市设计,城市规划,纯艺',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/njzdx.png')
                     },{
                         name:'AA建筑联盟学院 | 英国',
                         enName:'Architectural Association',
                         jzpm:'QS World 建筑排名 / -',
                         zpm:'QS World 综合排名 / -',
+                        country:'英国',
+                        pro:'建筑,城市设计,城市规划,纯艺',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/aajzlm.png')
                     },{
                         name:'罗德岛设计学院 | 美国',
                         enName:'RISD',
                         jzpm:'QS World 建筑排名 / -',
                         zpm:'QS World 综合排名 / -',
+                        country:'美国',
+                        pro:'建筑,城市设计,城市规划,纯艺,工业设计',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/ldtsj.png')
                     },{
                         name:'库伯联盟学院 | 美国',
                         enName:'',
                         jzpm:'QS World 建筑排名 / -',
                         zpm:'QS World 综合排名 / -',
+                        country:'美国',
+                        pro:'建筑,城市设计,城市规划,纯艺',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/kblm.png')
                     },{
                         name:'卡耐基梅隆大学 | 美国',
                         enName:'Carnegie Mellon University',
                         jzpm:'QS World 建筑排名 / 51',
                         zpm:'QS World 综合排名 / 46',
+                        country:'美国',
+                        pro:'建筑,城市设计,城市规划,纯艺',
+                        label:'',
                         imgUrl:require('../../../assets/images/schools/knjml.png')
                     }
 
