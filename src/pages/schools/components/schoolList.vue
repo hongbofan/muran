@@ -300,16 +300,28 @@
         computed:{
             filterArea(){
                 let f1=this.searchC,f2=this.searchP,f3=this.searchP
-                return  this.schoolLists.filter(function(i){
+                let areaArr=this.schoolLists.filter(function(i){
                     if(f1 === '全部') {
                         return i;
-                    }else if(f1==='香港/新加坡'){
-                        return i.name.indexOf('香港') !== -1 ||i.name.indexOf('新加坡') !== -1;
                     }else {
-                        return i.name.indexOf(f1) !== -1;
+                        return i.country===f1;
                     }
                 })
-                return this.schoolList
+                let proArea=areaArr.filter(function (v) {
+                    if(f2 === '全部'||f2 === '建筑'||f2 === '城市设计'||f2 === '城市规划') {
+                        return v;
+                    }else {
+                        return v.pro===f2;
+                    }
+                })
+                let labelArea=proArea.filter(function (v) {
+                    if(f3 === '全部') {
+                        return v;
+                    }else {
+                        return v.label===f3;
+                    }
+                })
+                return labelArea
             }
         }
     }
