@@ -383,6 +383,69 @@
                         pro:'建筑,城市设计,城市规划,纯艺',
                         label:'',
                         imgUrl:require('../../../assets/images/schools/knjml.png')
+                    },{
+                        name:'皇家艺术学院 | 英国',
+                        enName:'Royal College of Art',
+                        jzpm:'QS World 建筑排名 / 1',
+                        zpm:'QS World 综合排名 / ',
+                        country:'英国',
+                        pro:'建筑,城市设计,城市规划,纯艺,工业设计',
+                        label:'',
+                        imgUrl:require('')
+                    },{
+                        name:'伦敦艺术大学 | 英国',
+                        enName:'University of the Arts London',
+                        jzpm:'QS World 建筑排名 / 2',
+                        zpm:'QS World 综合排名 / ',
+                        country:'英国',
+                        pro:'建筑,城市设计,城市规划,纯艺,工业设计',
+                        label:'',
+                        imgUrl:require('')
+                    },{
+                        name:'帕森斯艺术学院 | 美国',
+                        enName:'Parsons',
+                        jzpm:'QS World 建筑排名 / 3',
+                        zpm:'QS World 综合排名 / ',
+                        country:'美国',
+                        pro:'建筑,城市设计,城市规划,纯艺,工业设计',
+                        label:'',
+                        imgUrl:require('')
+                    },{
+                        name:'Aalto University | 欧洲',
+                        enName:'Aalto University',
+                        jzpm:'QS World 建筑排名 / 4',
+                        zpm:'QS World 综合排名 / ',
+                        country:'欧洲',
+                        pro:'建筑,城市设计,城市规划,纯艺,工业设计',
+                        label:'',
+                        imgUrl:require('')
+                    },{
+                        name:'格拉斯哥艺术学院 | 英国',
+                        enName:'The Glasgow School of Art',
+                        jzpm:'QS World 建筑排名 / 5',
+                        zpm:'QS World 综合排名 / ',
+                        country:'英国',
+                        pro:'建筑,城市设计,城市规划,纯艺,工业设计',
+                        label:'',
+                        imgUrl:require('')
+                    },{
+                        name:'芝加哥艺术学院 | 美国',
+                        enName:'School of the Art Institute of Chicago',
+                        jzpm:'QS World 建筑排名 / 6',
+                        zpm:'QS World 综合排名 / ',
+                        country:'美国',
+                        pro:'建筑,城市设计,城市规划,纯艺,工业设计',
+                        label:'',
+                        imgUrl:require('')
+                    },{
+                        name:'Pratt institute | 美国',
+                        enName:'Pratt',
+                        jzpm:'QS World 建筑排名 / 7',
+                        zpm:'QS World 综合排名 / ',
+                        country:'美国',
+                        pro:'建筑,城市设计,城市规划,纯艺,工业设计',
+                        label:'',
+                        imgUrl:require('')
                     }
 
                 ],
