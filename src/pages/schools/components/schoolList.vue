@@ -12,7 +12,7 @@
                     <div class="classify-works mt15 d-flex" v-for="item in navLists.classify">
                         <span>{{item.name}}</span>
                         <b class="b-line"></b>
-                        <span @click="handleEvent(item.type,cats)"  v-for="cats in item.cats">{{cats}}</span>
+                        <span @click="handleEvent(item.type,cats,index)"  v-for="(cats,index) in item.cats" :class="{fwb:item.index==index}">{{cats}}</span>
                     </div>
                 </div>
             </div>
@@ -45,15 +45,18 @@
                     classify:[{
                         name:'国家',
                         cats:['全部','美国','英国','澳洲','欧洲','香港/新加坡','日本','加拿大','其他'],
-                        type:'area'
+                        type:'area',
+                        index:0
                     },{
                         name:'专业',
                         cats:['全部','建筑','城市设计','景观','城市规划','动画','纯艺','工业设计'],
-                        type:'pro'
+                        type:'pro',
+                        index:0
                     },{
                         name:'标签',
-                        cats:['IVY/常春藤联盟','QS排名'],
-                        type:'label'
+                        cats:['全部','IVY/常春藤联盟'],
+                        type:'label',
+                        index:0
                     }],
                 },
                 schoolLists:[{
@@ -275,54 +278,35 @@
                     }
 
                 ],
-                search:'全部'
+                searchC:'全部',
+                searchP:'全部',
+                searchL:'全部'
             }
-        }, methods: {
-            handleEvent(type,e){
+        },
+        methods: {
+            handleEvent(type,e,idx){
                 if(type=='label'){
-                    if(e=='QS排名'){
-                        this.qsSort('zpm')
-                    }
+                    this.searchL=e
+                    this.navLists.classify[2].index=idx
+                }else if(type==='area'){
+                    this.searchC=e;
+                    this.navLists.classify[0].index=idx
                 }else {
-                    this.filter(e)
+                    this.searchP=e
+                    this.navLists.classify[1].index=idx
                 }
             },
-            filter(f1){
-                this.search=f1
-            },
-            qsSort(type) {
-                this.sortType = type;
-                this.schoolLists.sort(this.compare(type));
-                switch(type){
-                    case '':break;
-                    case 'jzpm':
-                        this.sortType = 'jzpm';
-                        this.schoolLists.sort(this.compare('jzpm'));
-                        break;
-                    case 'zpm':
-                        this.sortType = 'zpm';
-                        this.schoolLists.sort(this.compare('zpm'));
-                        break;
-                }
-            },
-            compare(attr) {
-                return function(a,b){
-                    var v1 = parseInt(a[attr].split('/')[1].trim()||99999);
-                    var v2 = parseInt(b[attr].split('/')[1].trim()||99999);
-                    return v1 - v2;
-                }
-            }
         },
         computed:{
             filterArea(){
-                var f1=this.search
+                let f1=this.searchC,f2=this.searchP,f3=this.searchP
                 return  this.schoolLists.filter(function(i){
-                    if(f1 == '全部') {
+                    if(f1 === '全部') {
                         return i;
-                    }else if(f1=='香港/新加坡'){
-                        return i.name.indexOf('香港') != -1 ||i.name.indexOf('新加坡') != -1;
+                    }else if(f1==='香港/新加坡'){
+                        return i.name.indexOf('香港') !== -1 ||i.name.indexOf('新加坡') !== -1;
                     }else {
-                        return i.name.indexOf(f1) != -1;
+                        return i.name.indexOf(f1) !== -1;
                     }
                 })
                 return this.schoolList
@@ -352,7 +336,7 @@
     .schoolImg{width: 180px;height: 180px;display: flex; align-items: center;}
     .schoolImg img{ align-items: center;max-height: 100%;}
     .schoolBox .schoolItem{padding: 0;height: 100%;line-height: 18px;}
-    .courseBox{display: flex;flex-wrap:wrap;justify-content:space-between;}
+    .courseBox{display: flex;flex-wrap:wrap;}
     .courseUl{margin: 0 5px;}
     .courseUl li{margin: 0 0 15px;}
     .courseItem:hover .redLine{
