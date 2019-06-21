@@ -325,7 +325,7 @@
                     enName:'Hong Kong University',
                     jzpm:'QS World 建筑排名 / 13',
                     zpm:'QS World 综合排名 / 25',
-                    country:'其他',
+                    country:'香港/新加坡',
                     pro:'建筑,城市设计,城市规划,景观',
                     label:'',
                     imgUrl:require('../../../assets/images/schools/xgdx.jpg')
